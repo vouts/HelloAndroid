@@ -8,79 +8,43 @@
     tools:context="com.voutsadakis.stelios.helloandroid.MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/helloandroidjpg"
-        android:scaleType="center"
-        android:id="@+id/udacity_image"/>
+        android:id="@+id/udacity_image"
+        style="@style/imageView"
+        android:src="@drawable/helloandroidjpg" />
 
     <TextView
+        style="@style/titleView"
         android:id="@+id/udacity_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_below="@id/udacity_image"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="@dimen/titleMarginTop"
-        android:layout_marginLeft="@dimen/textMarginLeft"
-        android:textSize="@dimen/titleSize"
-        android:textColor="@color/blacktxt"
-        android:text="@string/text_title"/>
+        android:text="@string/text_title" />
 
     <TextView
+        style="@style/textView"
         android:id="@+id/udacity_street"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_below="@id/udacity_title"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="@dimen/textMarginTop"
-        android:layout_marginLeft="@dimen/textMarginLeft"
-        android:textSize="@dimen/textSize"
-        android:drawablePadding="@dimen/iconPadding"
         android:drawableLeft="@drawable/crosshairsgps"
-        android:textColor="@color/blacktxt"
-        android:text="@string/street"/>
+        android:text="@string/street" />
 
     <TextView
+        style="@style/textView"
         android:id="@+id/udacity_area"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_below="@id/udacity_street"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="@dimen/textMarginTop"
-        android:layout_marginLeft="@dimen/textMarginLeft"
-        android:textSize="@dimen/textSize"
-        android:drawablePadding="@dimen/iconPadding"
         android:drawableLeft="@drawable/mapmarker"
-        android:textColor="@color/blacktxt"
         android:text="@string/area"/>
 
     <TextView
+        style="@style/textView"
         android:id="@+id/udacity_phone_num"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_below="@id/udacity_area"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="@dimen/textMarginTop"
-        android:layout_marginLeft="@dimen/textMarginLeft"
-        android:textSize="@dimen/textSize"
-        android:drawablePadding="@dimen/iconPadding"
         android:drawableLeft="@drawable/cellphoneiphone"
-        android:textColor="@color/blacktxt"
         android:text="@string/phone_num"/>
 
     <TextView
+        style="@style/textView"
         android:id="@+id/udacity_link"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_below="@id/udacity_phone_num"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="@dimen/textMarginTop"
-        android:layout_marginLeft="@dimen/textMarginLeft"
-        android:textSize="@dimen/textSize"
         android:autoLink="web"
-        android:drawablePadding="@dimen/iconPadding"
         android:drawableLeft="@drawable/web"
-        android:textColorLink="@color/blacktxt"
-        android:text="@string/my_link"/>
+        android:text="@string/my_link" />
 
 </RelativeLayout>

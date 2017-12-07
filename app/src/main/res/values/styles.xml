@@ -9,4 +9,35 @@
 
     </style>
 
+    <style name="imageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="titleView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/textMarginLeft</item>
+        <item name="android:layout_marginTop">@dimen/textMarginTop</item>
+        <item name="android:textColor">@color/blacktxt</item>
+        <item name="android:textSize">@dimen/titleSize</item>
+        <item name="android:drawablePadding">@dimen/iconPadding</item>
+        <item name="android:layout_alignParentLeft">true</item>
+
+    </style>
+
+    <style name="textView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/textMarginLeft</item>
+        <item name="android:layout_marginTop">@dimen/textMarginTop</item>
+        <item name="android:textColor">@color/blacktxt</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:drawablePadding">@dimen/iconPadding</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textColorLink">@color/blacktxt</item>
+    </style>
+
+
 </resources>
