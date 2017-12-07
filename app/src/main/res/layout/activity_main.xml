@@ -35,6 +35,7 @@
         android:layout_marginTop="@dimen/textMarginTop"
         android:layout_marginLeft="@dimen/textMarginLeft"
         android:textSize="@dimen/textSize"
+        android:drawablePadding="@dimen/iconPadding"
         android:drawableLeft="@drawable/crosshairsgps"
         android:textColor="@color/blacktxt"
         android:text="@string/street"/>
@@ -48,6 +49,7 @@
         android:layout_marginTop="@dimen/textMarginTop"
         android:layout_marginLeft="@dimen/textMarginLeft"
         android:textSize="@dimen/textSize"
+        android:drawablePadding="@dimen/iconPadding"
         android:drawableLeft="@drawable/mapmarker"
         android:textColor="@color/blacktxt"
         android:text="@string/area"/>
@@ -61,6 +63,7 @@
         android:layout_marginTop="@dimen/textMarginTop"
         android:layout_marginLeft="@dimen/textMarginLeft"
         android:textSize="@dimen/textSize"
+        android:drawablePadding="@dimen/iconPadding"
         android:drawableLeft="@drawable/cellphoneiphone"
         android:textColor="@color/blacktxt"
         android:text="@string/phone_num"/>
@@ -75,6 +78,7 @@
         android:layout_marginLeft="@dimen/textMarginLeft"
         android:textSize="@dimen/textSize"
         android:autoLink="web"
+        android:drawablePadding="@dimen/iconPadding"
         android:drawableLeft="@drawable/web"
         android:textColorLink="@color/blacktxt"
         android:text="@string/my_link"/>
