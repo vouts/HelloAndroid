@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBg"
+    tools:context="com.voutsadakis.stelios.helloandroid.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/helloandroidjpg"
+        android:scaleType="center"
+        android:id="@+id/udacity_image"/>
+
+    <TextView
+        android:id="@+id/udacity_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/udacity_image"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="24sp"
+        android:textColor="@color/blacktxt"
+        android:text="@string/text_title"/>
+
+    <TextView
+        android:id="@+id/udacity_street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/udacity_title"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="24sp"
+        android:textColor="@color/blacktxt"
+        android:text="@string/street"/>
+
+    <TextView
+        android:id="@+id/udacity_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/udacity_street"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="24sp"
+        android:textColor="@color/blacktxt"
+        android:text="@string/area"/>
+
+    <TextView
+        android:id="@+id/udacity_phone_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/udacity_area"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="24sp"
+        android:textColor="@color/blacktxt"
+        android:text="@string/phone_num"/>
+
+    <TextView
+        android:id="@+id/udacity_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/udacity_phone_num"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="24sp"
+        android:autoLink="web"
+        android:textColorLink="@color/blacktxt"
+        android:text="@string/my_link"/>
+
+</RelativeLayout>
