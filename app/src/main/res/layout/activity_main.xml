@@ -22,7 +22,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginTop="@dimen/titleMarginTop"
         android:layout_marginLeft="@dimen/textMarginLeft"
-        android:textSize="@dimen/textSize"
+        android:textSize="@dimen/titleSize"
         android:textColor="@color/blacktxt"
         android:text="@string/text_title"/>
 
