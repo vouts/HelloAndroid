@@ -8,8 +8,8 @@
     tools:context="com.voutsadakis.stelios.helloandroid.MainActivity">
 
     <TextView
-        style="@style/titleView"
         android:id="@+id/coffee_title"
+        style="@style/titleView"
         android:text="@string/text_title" />
 
     <ImageView
@@ -17,35 +17,41 @@
         style="@style/imageView"
         android:src="@drawable/coffee" />
 
-
-
     <TextView
-        style="@style/textView"
         android:id="@+id/coffee_street"
+        style="@style/textView"
         android:layout_below="@id/coffee_image"
         android:drawableLeft="@drawable/crosshairsgps"
         android:text="@string/street" />
 
     <TextView
-        style="@style/textView"
         android:id="@+id/coffee_area"
+        style="@style/textView"
         android:layout_below="@id/coffee_street"
         android:drawableLeft="@drawable/mapmarker"
-        android:text="@string/area"/>
+        android:text="@string/area" />
 
     <TextView
-        style="@style/textView"
         android:id="@+id/coffee_phone_num"
+        style="@style/textView"
         android:layout_below="@id/coffee_area"
         android:drawableLeft="@drawable/cellphoneiphone"
-        android:text="@string/phone_num"/>
+        android:text="@string/phone_num" />
 
     <TextView
+        android:id="@+id/coffee_link"
         style="@style/textView"
-        android:id="@+id/cofee_link"
         android:layout_below="@id/coffee_phone_num"
         android:autoLink="web"
         android:drawableLeft="@drawable/web"
         android:text="@string/my_link" />
+
+    <TextView
+        android:id="@+id/cofee_working"
+        style="@style/textView"
+        android:layout_below="@id/coffee_link"
+        android:autoLink="web"
+        android:drawableLeft="@drawable/calendar"
+        android:text="@string/working" />
 
 </RelativeLayout>
