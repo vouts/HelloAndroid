@@ -7,42 +7,43 @@
     android:background="@color/mainBg"
     tools:context="com.voutsadakis.stelios.helloandroid.MainActivity">
 
-    <ImageView
-        android:id="@+id/udacity_image"
-        style="@style/imageView"
-        android:src="@drawable/helloandroidjpg" />
-
     <TextView
         style="@style/titleView"
-        android:id="@+id/udacity_title"
-        android:layout_below="@id/udacity_image"
+        android:id="@+id/coffee_title"
         android:text="@string/text_title" />
+
+    <ImageView
+        android:id="@+id/coffee_image"
+        style="@style/imageView"
+        android:src="@drawable/coffee" />
+
+
 
     <TextView
         style="@style/textView"
-        android:id="@+id/udacity_street"
-        android:layout_below="@id/udacity_title"
+        android:id="@+id/coffee_street"
+        android:layout_below="@id/coffee_image"
         android:drawableLeft="@drawable/crosshairsgps"
         android:text="@string/street" />
 
     <TextView
         style="@style/textView"
-        android:id="@+id/udacity_area"
-        android:layout_below="@id/udacity_street"
+        android:id="@+id/coffee_area"
+        android:layout_below="@id/coffee_street"
         android:drawableLeft="@drawable/mapmarker"
         android:text="@string/area"/>
 
     <TextView
         style="@style/textView"
-        android:id="@+id/udacity_phone_num"
-        android:layout_below="@id/udacity_area"
+        android:id="@+id/coffee_phone_num"
+        android:layout_below="@id/coffee_area"
         android:drawableLeft="@drawable/cellphoneiphone"
         android:text="@string/phone_num"/>
 
     <TextView
         style="@style/textView"
-        android:id="@+id/udacity_link"
-        android:layout_below="@id/udacity_phone_num"
+        android:id="@+id/cofee_link"
+        android:layout_below="@id/coffee_phone_num"
         android:autoLink="web"
         android:drawableLeft="@drawable/web"
         android:text="@string/my_link" />

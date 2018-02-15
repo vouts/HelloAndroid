@@ -6,5 +6,6 @@
     <dimen name="textSize">24sp</dimen>
     <dimen name="textMarginTop">10dp</dimen>
     <dimen name="textMarginLeft">16dp</dimen>
+    <dimen name="maxImageHeight">300dp</dimen>
 
 </resources>
